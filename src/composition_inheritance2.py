@@ -28,9 +28,9 @@ class TsvDataShell(DataShell):
 
 
 # Instantiate CsvDataShell as us_data_shell, print us_data_shell.stats
-us_data_shell = CsvDataShell("US", us_life_expectancy)
+us_data_shell = CsvDataShell("US", 'us_life_expectancy.csv')
 print(us_data_shell.stats)
 
 # Instantiate TsvDataShell as france_data_shell, print france_data_shell.stats
-france_data_shell = TsvDataShell('France', france_life_expectancy)
+france_data_shell = TsvDataShell('France', 'us_life_expectancy.csv')
 print(france_data_shell.stats)

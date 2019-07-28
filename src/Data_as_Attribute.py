@@ -27,7 +27,7 @@ class DataShell:
 
 
 # Instantiate DataShell as us_data_shell
-us_data_shell = DataShell(us_life_expectancy)
+us_data_shell = DataShell('us_life_expectancy.csv')
 
 # Print the datatype of your object's data_as_csv attribute
 print(us_data_shell.data_as_csv.dtypes)

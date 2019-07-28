@@ -22,7 +22,7 @@ class CsvDataShell(DataShell):
 
 
 # Instantiate CsvDataShell as us_data_shell
-us_data_shell = CsvDataShell("US", us_life_expectancy)
+us_data_shell = CsvDataShell("US", 'us_life_expectancy.csv')
 
 # Print us_data_shell.stats
 print(us_data_shell.stats)

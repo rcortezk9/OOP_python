@@ -10,7 +10,7 @@ class DataShell:
 
 
 # Instantiate DataShell as my_data_shell
-my_data_shell = DataShell(us_life_expectancy)
+my_data_shell = DataShell('us_life_expectancy.csv')
 
 # Print my_data_shell
 print(my_data_shell)

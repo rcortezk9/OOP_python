@@ -1,4 +1,4 @@
-'''Create a function that returns a NumPy array'''
+"""Create a function that returns a NumPy array"""
 
 # Import numpy as np
 import numpy as np

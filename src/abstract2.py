@@ -18,7 +18,7 @@ class CsvDataShell(DataShell):
 
 
 # Instantiate CsvDataShell as us_data_shell, passing us_life_expectancy as argument
-us_data_shell = CsvDataShell(us_life_expectancy)
+us_data_shell = CsvDataShell('us_life_expectancy.csv')
 
 # Print us_data_shell.data
 print(us_data_shell.data)
